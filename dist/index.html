@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../src/css/reset.css">
+  <link rel="stylesheet" href="../src/style.css">
+  <title>The Plant-Based Barista</title>
+</head>
+
+<body>
+  <main class="layout">
+    <header class="header highlight spaced">
+      <div class="header__titles">
+        <a class="h2-like">
+          The Plant-Based Barista
+        </a>
+        <h1 class="h1-like">What do you want to order? 🌱</h1>
+      </div>
+      <div class="header__img">
+        <img class="header__image--cup" src="../assets/img/image 1.png" alt="coffee">
+        <!--<img class="header__image--leaf" src="assets/img/image 3.png" alt="leaf">-->
+      </div>
+    </header>
+    <section class="prices highlight spaced">
+      <h2 class="visually-hidden">Price list</h2>
+      <ul class="prices__list">
+        <!--
+          TEMPLATE
+        -->
+        <li class="price">
+          <a class="price__button">
+            <span class="price__button__wrapper">
+              <span class="price__button__name">Oat Latte</span>
+              <span class="price__button__amount">&euro; 3,00</span>
+            </span>
+            <span class="price__button__plus">+</span>
+          </a>
+        </li>
+        <li class="price">
+          <a class="price__button">
+            <span class="price__button__wrapper">
+              <span class="price__button__name">Drink name</span>
+              <span class="price__button__amount">&euro; 3,00</span>
+            </span>
+            <span class="price__button__plus">+</span>
+          </a>
+        </li>
+        <li class="price">
+          <a class="price__button">
+            <span class="price__button__wrapper">
+              <span class="price__button__name">Drink name</span>
+              <span class="price__button__amount">&euro; 3,00</span>
+            </span>
+            <span class="price__button__plus">+</span>
+          </a>
+        </li>
+        <li class="price">
+          <a class="price__button">
+            <span class="price__button__wrapper">
+              <span class="price__button__name">Drink name</span>
+              <span class="price__button__amount">&euro; 3,00</span>
+            </span>
+            <span class="price__button__plus">+</span>
+          </a>
+        </li>
+
+      </ul>
+    </section>
+    <section class="content spaced">
+      <h2 class="title_mini">Order</h2>
+      <div class="orders__wrapper hide">
+        <ul class="orders">
+
+          <li class="order">
+            <span class="order__name">
+              <span class="order__amount">1x</span> Oat Latte
+            </span>
+            <div>
+              <span class="order__price">&euro; 3,50</span>
+              <button class="remove">
+                x
+              </button>
+            </div>
+          </li>
+
+        </ul>
+        <p class="total">
+          <span class="total__label">Total</span>
+          <span class="total__price">&euro; <span>0,00</span></span>
+        </p>
+      </div>
+      <!--
+        <div class="emptystate">
+          <img srcset="./assets/img/coffee-maker.jpg 67w,
+          ./assets/img/coffee-maker@2x.jpg 134w" sizes="67px" src="./assets/img/coffee-maker.jpg" alt="A coffee maker"><br>
+
+          <span class="emptystate__content">
+            Please order something
+            <span role="img" aria-label="Drunk emoji">
+              🤪
+            </span>
+          </span>
+        </div>
+      -->
+    </section>
+  </main>
+  <footer class="footer">
+    <a class="footer__item">
+      <img width="36px" src="../assets/img/footer_home.png" alt="home"><br>
+      Home
+    </a>
+    <a class="footer__item">
+      <img src="../assets/img/footer_about.png" alt="about"><br>
+      About
+    </a>
+    <a class="footer__item">
+      <img src="../assets/img/footer_admin.png" alt="admin"><br>
+      <span>Admin</span>
+    </a>
+  </footer>
+</body>
+<script src = "main.js" ></script>
+</html>
