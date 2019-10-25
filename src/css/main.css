@@ -12,12 +12,12 @@
 .prices {
   background: var(--backgroundColor);
   margin: 0;
-  padding-top: 0rem;
+  padding-top: 0;
 
 }
 
 .price {
-  background-color: #fff;
+  background-color: white;
   border-radius: 6px;
   padding: 1.3rem;
 }
@@ -35,7 +35,7 @@
 .price__button__amount {
   font-size: 12px;
   line-height: 14px;
-  color:#9C9C9C;
+  color: #9c9c9c;
 }
 
 .price__button__name {
@@ -48,7 +48,7 @@
 }
 
 .price__button__plus {
-  background-color:#A3F4DC;
+  background-color: #a3f4dc;
   width: 3.8rem;
   height: 3.8rem;
   font-family: Cabin, sans-serif;
@@ -76,7 +76,7 @@
 .emptystate__content {
   font-size: var(--regularFontSize);
   line-height: 2.1rem;
-  color: #9C9C9C;
+  color: #9c9c9c;
   margin-top: 4rem;
   margin-bottom: 40rem;
 }
@@ -87,7 +87,7 @@
   background-color: var(--textColor);
   color: white;
   justify-content: space-between;
-  padding: 0rem 6rem;
+  padding: 0 6rem;
 }
 
 .footer__item {
@@ -97,12 +97,12 @@
   margin-top: 1rem;
   font-weight: 500;
   font-size: 12px;
-  color: #564F4F;
+  color: #564f4f;
 }
 
 .total {
   height: 5.3rem;
-  background: #FAFAFA;
+  background: #fafafa;
   width: 100vw;
   margin-left: -3rem;
   margin-bottom: -3rem;
@@ -126,7 +126,7 @@
 
   font-size: var(--regularFontSize);
   line-height: 21px;
-  border-bottom: 1px solid #EFEFEF;
+  border-bottom: 1px solid #efefef;
 }
 
 .order__amount {
@@ -136,18 +136,21 @@
 }
 
 .remove {
-  color: rgba(33, 33, 33, 0.3);
+  color: #2121214d;
   font-size: var(--regularFontSize);
   line-height: 21px;
   border: none;
 }
+
 @media only screen and (max-width: 828px) {
+
   .header__image--cup--bigres {
     display: none;
   }
 }
 
 @media only screen and (min-width: 828px) {
+
   .layout {
     display: grid;
     grid-template-columns: 30.5rem auto;

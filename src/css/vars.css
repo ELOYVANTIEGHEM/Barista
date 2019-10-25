@@ -1,15 +1,18 @@
-@font-face{
-  font-family: "Roboto";
-  src: url("/demo/Barista/assets/fonts/Roboto-Regular.woff2") format("woff2"),
-       url("/demo/Barista/assets/fonts/Roboto-Regular.woff") format("woff");
+
+@font-face {
+  font-family: Roboto;
+
+  src:
+    url('/demo/Barista/assets/fonts/Roboto-Regular.woff2') format('woff2'),
+    url('/demo/Barista/assets/fonts/Roboto-Regular.woff') format('woff');
   font-style: normal;
 }
 
 :root {
-  --backgroundColor: #F9D2CB;
+  --backgroundColor: #f9d2cb;
   --textColor: #212121;
-  --anotherColor:#bada55;
-  --mainFont: Roboto;
+  --anotherColor: #bada55;
+  --mainFont: roboto;
   --regularFontSize: 18px;
   --titleFontSize: 26px;
   --margin: 2rem;
